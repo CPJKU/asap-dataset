@@ -187,8 +187,8 @@ score = pt.load_score(filename= 'path/to/xml_score.musicxml')
 performance = pt.load_performance_midi(filename= 'path/to/performance_name.mid')
 
 # sometimes scores contain repeats that need to unfolded to make the alignment make sense
-part = pt.merge_parts(score)
-unfolded_part = pt.unfold_part_maximal(part)
+part = pt.score.merge_parts(score)
+unfolded_part = pt.score.unfold_part_maximal(part)
 
 # to get numpy arrays of the score and performance for downstream processing without partitura:
 score_array = part.note_array()
