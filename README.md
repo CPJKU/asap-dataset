@@ -92,6 +92,8 @@ Each row in `metadata.csv` file contains the following information:
 - **end**: The same as start, but for the end of the original MAESTRO performance. The end of the ASAP performance is at this time in the original MAESTRO performance
 - **audio_performance**: the path of the (properly cut) audio file in the ASAP dataset (if one exists)
 - **robust_note_alignment**: the robustness of the note alignment(1 = robust, 0 = not robust)
+- **note_alignments**: the path of the TSV with alignments between score and performance notes 
+- **parangonada_data_folder**: the path of the directory containing the files for visualization and checking with Parangonada
 
 
 ### Annotation json
@@ -187,8 +189,8 @@ score = pt.load_score(filename= 'path/to/xml_score.musicxml')
 performance = pt.load_performance_midi(filename= 'path/to/performance_name.mid')
 
 # sometimes scores contain repeats that need to unfolded to make the alignment make sense
-part = pt.merge_parts(score)
-unfolded_part = pt.unfold_part_maximal(part)
+part = pt.score.merge_parts(score)
+unfolded_part = pt.score.unfold_part_maximal(part)
 
 # to get numpy arrays of the score and performance for downstream processing without partitura:
 score_array = part.note_array()
