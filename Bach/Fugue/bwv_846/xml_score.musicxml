@@ -6266,7 +6266,6 @@
           <tied type="start"/>
           </notations>
         </note>
-
       <note id="n448" default-x="201.86" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -6291,6 +6290,7 @@
         <duration>8</duration>
         <voice>3</voice>
         <type>eighth</type>
+        <accidental>natural</accidental>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
