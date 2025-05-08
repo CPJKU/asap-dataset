@@ -12427,10 +12427,7 @@
         <duration>32</duration>
         <tie type="stop"/>
         <voice>1</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <dot/>
+        <type>64th</type>
         <time-modification>
           <actual-notes>7</actual-notes>
           <normal-notes>8</normal-notes>
@@ -12441,7 +12438,6 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         <beam number="4">begin</beam>
-        <beam number="5">begin</beam>
         <notations>
           <tied type="stop"/>
           <tuplet type="start" bracket="no"/>
@@ -12455,10 +12451,7 @@
           </pitch>
         <duration>32</duration>
         <voice>1</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <dot/>
+        <type>64th</type>
         <time-modification>
           <actual-notes>7</actual-notes>
           <normal-notes>8</normal-notes>
@@ -12469,11 +12462,7 @@
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
-        <beam number="5">continue</beam>
         </note>
-      <forward>
-        <duration>1</duration>
-        </forward>
       <note id="n838" default-x="186.93" default-y="-40.00">
         <pitch>
           <step>E</step>
@@ -12482,10 +12471,7 @@
           </pitch>
         <duration>32</duration>
         <voice>1</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <dot/>
+        <type>64th</type>
         <time-modification>
           <actual-notes>7</actual-notes>
           <normal-notes>8</normal-notes>
@@ -12496,7 +12482,6 @@
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
-        <beam number="5">continue</beam>
         </note>
       <note id="n839" default-x="220.62" default-y="-45.00">
         <pitch>
@@ -12505,10 +12490,7 @@
           </pitch>
         <duration>32</duration>
         <voice>1</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <dot/>
+        <type>64th</type>
         <time-modification>
           <actual-notes>7</actual-notes>
           <normal-notes>8</normal-notes>
@@ -12519,11 +12501,7 @@
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
-        <beam number="5">continue</beam>
         </note>
-      <forward>
-        <duration>2</duration>
-        </forward>
       <note id="n840" default-x="260.78" default-y="-40.00">
         <pitch>
           <step>E</step>
@@ -12532,10 +12510,7 @@
           </pitch>
         <duration>32</duration>
         <voice>1</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <dot/>
+        <type>64th</type>
         <time-modification>
           <actual-notes>7</actual-notes>
           <normal-notes>8</normal-notes>
@@ -12546,7 +12521,6 @@
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
-        <beam number="5">continue</beam>
         </note>
       <note id="n841" default-x="305.84" default-y="-40.00">
         <pitch>
@@ -12555,10 +12529,7 @@
           </pitch>
         <duration>32</duration>
         <voice>1</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <dot/>
+        <type>64th</type>
         <accidental>natural</accidental>
         <time-modification>
           <actual-notes>7</actual-notes>
@@ -12570,11 +12541,7 @@
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
-        <beam number="5">continue</beam>
         </note>
-      <forward>
-        <duration>1</duration>
-        </forward>
       <note id="n842" default-x="339.53" default-y="-35.00">
         <pitch>
           <step>F</step>
@@ -12582,10 +12549,7 @@
           </pitch>
         <duration>32</duration>
         <voice>1</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <dot/>
+        <type>64th</type>
         <time-modification>
           <actual-notes>7</actual-notes>
           <normal-notes>8</normal-notes>
@@ -12596,7 +12560,6 @@
         <beam number="2">end</beam>
         <beam number="3">end</beam>
         <beam number="4">end</beam>
-        <beam number="5">end</beam>
         <notations>
           <tuplet type="stop"/>
           <slur type="stop" number="1"/>
@@ -12986,32 +12949,9 @@
         <type>eighth</type>
         <staff>1</staff>
         </note>
-      <note id="n867" print-object="no">
-        <rest/>
-        <duration>14</duration>
-        <voice>1</voice>
-        <type>256th</type>
-        <dot/>
-        <dot/>
-        <dot/>
-        <staff>1</staff>
-        </note>
-      <note id="n868" print-object="no">
-        <rest/>
-        <duration>28</duration>
-        <voice>1</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <dot/>
-        <staff>1</staff>
-        </note>
       <backup>
         <duration>1950</duration>
         </backup>
-      <forward>
-        <duration>2</duration>
-        </forward>
       <note id="n869" default-x="91.12" default-y="-110.00">
         <pitch>
           <step>G</step>
@@ -13234,16 +13174,6 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
-        </note>
-      <note id="n885" print-object="no">
-        <rest/>
-        <duration>28</duration>
-        <voice>5</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <dot/>
-        <staff>2</staff>
         </note>
       </measure>
     <measure number="27" width="1105.00">
