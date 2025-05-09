@@ -24598,9 +24598,6 @@
         <type>eighth</type>
         <staff>2</staff>
         </note>
-      <barline location="right">
-        <ending number="2" type="discontinue" relative-x="9.75"/>
-        </barline>
       </measure>
     <measure number="83" width="160.79">
       <note id="n1758" default-x="12.20" default-y="-20.00">
