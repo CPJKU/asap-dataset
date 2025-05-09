@@ -18381,10 +18381,6 @@
           <staff-distance>116.94</staff-distance>
           </staff-layout>
         </print>
-      <barline location="left">
-        <bar-style>heavy-light</bar-style>
-        <repeat direction="forward"/>
-        </barline>
       <attributes>
         <key>
           <fifths>7</fifths>
@@ -26808,10 +26804,6 @@
           </direction-type>
         <staff>4</staff>
         </direction>
-      <barline location="right">
-        <bar-style>none</bar-style>
-        <repeat direction="backward"/>
-        </barline>
       </measure>
     <measure number="74" width="487.65">
       <print new-page="yes">
