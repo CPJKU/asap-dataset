@@ -3230,10 +3230,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <barline location="left">
-        <bar-style>heavy-light</bar-style>
-        <repeat direction="forward"/>
-        </barline>
       <note id="n218" default-x="100.01" default-y="15.00">
         <pitch>
           <step>B</step>
@@ -24445,160 +24441,6 @@
         <staff>2</staff>
         </note>
       </measure>
-    <measure number="81" width="145.34">
-      <barline location="left">
-        <ending number="1" type="start" default-y="41.76" relative-x="1.41"/>
-        </barline>
-      <note id="n1732" default-x="12.00" default-y="-45.00">
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n1733" default-x="12.00" default-y="-35.00">
-        <chord/>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n1734" default-x="12.00" default-y="-20.00">
-        <chord/>
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>4</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n1735">
-        <rest/>
-        <duration>6</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <staff>1</staff>
-        </note>
-      <note id="n1736">
-        <rest/>
-        <duration>12</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <staff>1</staff>
-        </note>
-      <direction placement="below">
-        <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" relative-x="-6.59" relative-y="14.52">
-            <p/>
-            </dynamics>
-          </direction-type>
-        <staff>1</staff>
-        <sound dynamics="124.44"/>
-        </direction>
-      <note id="n1737" default-x="105.04" default-y="15.00" dynamics="54.44">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>5</octave>
-          </pitch>
-        <duration>6</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>1</staff>
-        </note>
-      <backup>
-        <duration>36</duration>
-        </backup>
-      <note id="n1738" default-x="12.00" default-y="-135.00">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>2</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>5</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        </note>
-      <note id="n1739" default-x="12.00" default-y="-125.00">
-        <chord/>
-        <pitch>
-          <step>D</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>5</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        </note>
-      <note id="n1740" default-x="12.00" default-y="-115.00">
-        <chord/>
-        <pitch>
-          <step>F</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>5</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        </note>
-      <note id="n1741" default-x="12.00" default-y="-100.00">
-        <chord/>
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>5</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        </note>
-      <note id="n1742">
-        <rest/>
-        <duration>6</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <staff>2</staff>
-        </note>
-      <note id="n1743">
-        <rest/>
-        <duration>12</duration>
-        <voice>5</voice>
-        <type>quarter</type>
-        <staff>2</staff>
-        </note>
-      <note id="n1744">
-        <rest/>
-        <duration>6</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <staff>2</staff>
-        </note>
-      <barline location="right">
-        <bar-style>light-heavy</bar-style>
-        <ending number="1" type="stop" relative-x="1.41"/>
-        <repeat direction="backward"/>
-        </barline>
-      </measure>
     <measure number="82" width="172.43">
       <print new-page="yes">
         <system-layout>
@@ -24612,9 +24454,6 @@
           <staff-distance>70.00</staff-distance>
           </staff-layout>
         </print>
-      <barline location="left">
-        <ending number="2" type="start" default-y="47.55" relative-x="9.75"/>
-        </barline>
       <note id="n1745" default-x="83.96" default-y="-45.00">
         <pitch>
           <step>D</step>
