@@ -5,18 +5,19 @@
 It contains data and annotations in the following domains:
 - Musical scores (both MIDI and MusicXML)
 - Performances (performance MIDI and audio)
+- MusicXML score to performance note alignments that align score notes (identified by added note IDs in the musicXML file) to performed notes (= note alignments)
 - Performance downbeat, beat, time signature, and key signature annotations. 
 - MIDI score beat and downbeat annotations that align to the performance beat and downbeat annotations (= beat alignments)
-- MusicXML score to performance note alignments that align score notes (identified by added note IDs in the musicXML file) to performed notes (= note alignments)
 
 #### Dataset Uses:
 
 With the variety of annotations and alignments available (n)ASAP is suitable for several MIR tasks. The following is an incomplete list to help you navigate the dataset contents:
 
-- Audio to MIDI transcription (aligned MIDI and audio: see Maestro data)
-- Audio or MIDI beat/downbeat tracking, key and time signature estimation (ASAP annotations per file: see annotations.json and *_annotations.txt files) 
 - MIDI to Score transcription (beat-based ASAP annotations: see annotations.json and *_annotations.txt files. Or note-based (n)ASAP annotations: see note_alignment.tsv file)
 - Performance generation or analysis ((n)ASAP annotations: see note_alignment.tsv file)
+- Audio to MIDI transcription (aligned MIDI and audio: see Maestro data)
+- Audio or MIDI beat/downbeat tracking, key and time signature estimation (ASAP annotations per file: see annotations.json and *_annotations.txt files) 
+
 
 This repository contains all of the annotations, as well as all of the MIDI and MusicXML files. To get the audio files, follow the instructions below.
 
@@ -92,6 +93,9 @@ Each row in `metadata.csv` file contains the following information:
 - **end**: The same as start, but for the end of the original MAESTRO performance. The end of the ASAP performance is at this time in the original MAESTRO performance
 - **audio_performance**: the path of the (properly cut) audio file in the ASAP dataset (if one exists)
 - **robust_note_alignment**: the robustness of the note alignment(1 = robust, 0 = not robust)
+- **note_alignments**: the path of the TSV with alignments between score and performance notes 
+- **parangonada_data_folder**: the path of the directory containing the files for visualization and checking with Parangonada
+- **match_file**: the path of the match file with alignments between score and performance notes 
 
 
 ### Annotation json
@@ -129,50 +133,8 @@ For each MIDI performance and MusicXML score we provide a tab-separated value (T
 - **onset**: The onset time of the MIDI note.
 
 
-## Usage examples
+## Note Alignments Usage example
 
-
-### Beat Annotations
-
-```python
-import pandas as pd
-from pathlib import Path
-import json
-BASE_PATH= "."
-
-#get a list of performances such as there are not 2 performances of the same piece
-df = pd.read_csv(Path(BASE_PATH,"metadata.csv"))
-unique_df = df.drop_duplicates(subset=["title","composer"])
-unique_performance_list = unique_df["midi_performance"].tolist()
-
-#get the downbeat_list of a performance of Bach Fugue_bwv_848
-midi_path = df.loc[df.title=="Fugue_bwv_848","midi_performance"].iloc[0]
-with open(Path(BASE_PATH,'asap_annotations.json')) as json_file:
-    json_data = json.load(json_file)
-db_list = json_data[midi_path]["performance_downbeats"]
-
-#same task, but using the TSV file
-annotation_path = df.loc[df.title=="Fugue_bwv_848","performance_annotations"].iloc[0]
-ann_df = pd.read_csv(Path(BASE_PATH,annotation_path),header=None, names=["time","time2","type"],sep='\t')
-db_list = [row["time"] for i,row in ann_df.iterrows() if row["type"].split(",")[0]=="db"]
-
-#get all pieces with time signature changes
-with open(Path(BASE_PATH,'asap_annotations.json')) as json_file:
-    json_data = json.load(json_file)
-tsc_pieces = [p for p in json_data.keys() if len(json_data[p]["perf_time_signatures"])>1 ]
-
-# get all performances without aligned score
-with open(Path(BASE_PATH,'asap_annotations.json')) as json_file:
-    json_data = json.load(json_file)
-unaligned_performances = [p for p in json_data.keys() if not json_data[p]["score_and_performance_aligned"]]
-
-# get a list of non-robust note alignments
-df = pd.read_csv(Path(BASE_PATH,"metadata.csv"))
-not_robust = df[df["robust_note_alignment"] == 0]
-not_robust_list = not_robust["midi_performance"].tolist()
-```
-
-### Note Alignments
 
 We use [Partitura](https://github.com/CPJKU/partitura) as file I/O utility. Note alignments (tsv files) can be parsed into python lists.
 
@@ -187,8 +149,8 @@ score = pt.load_score(filename= 'path/to/xml_score.musicxml')
 performance = pt.load_performance_midi(filename= 'path/to/performance_name.mid')
 
 # sometimes scores contain repeats that need to unfolded to make the alignment make sense
-part = pt.merge_parts(score)
-unfolded_part = pt.unfold_part_maximal(part)
+part = pt.score.merge_parts(score)
+unfolded_part = pt.score.unfold_part_maximal(part)
 
 # to get numpy arrays of the score and performance for downstream processing without partitura:
 score_array = part.note_array()
@@ -218,27 +180,15 @@ alignment = pt.io.importparangonada.load_parangonada_alignment(filename= 'path/t
 #### Dataset History:
 
 (n)ASAP is the product of several iterative improvements:
-- performance MIDI and audio recordings from the Yamaha piano-e-competition
-- assembled and curated by Hawthorne et al. ("Maestro dataset")
-- augmented with scores and by preliminary alignments by Jeong et al.
-- curated, beat-aligned, and annotated by Foscarin et al. ("ASAP dataset")
-- note-aligned by Peter et al.
+- performance MIDI and audio recordings from the [Yamaha piano-e-competition](http://piano-e-competition.com)
+- assembled and curated by Hawthorne et al. as [Maestro dataset](https://magenta.tensorflow.org/datasets/maestro#dataset)
+- augmented with scores and by preliminary alignments by Jeong et al. and on [here on github](https://github.com/mac-marg-pianist/chopin_cleaned)
+- curated, beat-aligned, and annotated by Foscarin et al. as [ASAP dataset](https://github.com/fosfrancesco/asap-dataset)
+- note-aligned by Peter et al. and published as (n)ASAP dataset.
 
 #### Citing
-If you use this dataset in any research, please cite the relevant papers. 
-For beat alignments:
+If you use the (n)ASAP dataset in any research, please cite: 
 
-```
-@inproceedings{asap-dataset,
-  title={{ASAP}: a dataset of aligned scores and performances for piano transcription},
-  author={Foscarin, Francesco and McLeod, Andrew and Rigaux, Philippe and Jacquemard, Florent and Sakai, Masahiko},
-  booktitle={International Society for Music Information Retrieval Conference {(ISMIR)}},
-  year={2020},
-  pages={534--541}
-}
-```
-
-For note alignments:
 ```
 @article{Peter-2023,
  title = {Automatic Note-Level Score-to-Performance Alignments in the ASAP Dataset},
@@ -248,6 +198,7 @@ For note alignments:
  year = {2023}
 }
 ```
+If you use any of the datasets on which we built (n)ASAP, please cite the relevant publications.
 
 #### Limits of the dataset
 - The scores were written by non-professionals, and although we manually corrected them to filter out most of the incorrect notation, they still present some problems. Our suggestion is to use the corrected annotations provided in the TSV and in the JSON files rather than extracting them again from the score.
@@ -258,4 +209,5 @@ For note alignments:
 The dataset is made available under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0) license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 #### Versions
-- The initial version of (n)ASAP (as it was released for TISMIR 2023) is based on ASAP [v1.1](https://github.com/fosfrancesco/asap-dataset/releases/tag/v1.1).
+- The initial version of (n)ASAP v2.0 (as it was released for TISMIR in 2023) is based on ASAP [v1.1](https://github.com/fosfrancesco/asap-dataset/releases/tag/v1.1).
+- The second version of (n)ASAP v2.1 (May 2025) merges the changes made in ASAP [v1.2](https://github.com/fosfrancesco/asap-dataset/releases/tag/v1.2). It also fixes 7 scores, and 18 alignments.
