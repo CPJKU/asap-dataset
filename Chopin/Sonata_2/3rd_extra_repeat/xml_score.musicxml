@@ -15180,6 +15180,10 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <barline location="left">
+        <bar-style>heavy-light</bar-style>
+        <repeat direction="forward"/>
+        </barline>
       <note id="n1018" default-x="105.36" default-y="-15.00">
         <pitch>
           <step>C</step>
@@ -18749,7 +18753,8 @@
         <staff>2</staff>
         </note>
       <barline location="right">
-        <bar-style>light-light</bar-style>
+        <bar-style>light-heavy</bar-style>
+        <repeat direction="backward"/>
         </barline>
       </measure>
     <measure number="55" width="255.19">
