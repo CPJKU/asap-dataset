@@ -632,6 +632,12 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         </note>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <staff>1</staff>
+        </direction>
       <note id="n27" print-object="no">
         <rest/>
         <duration>25</duration>
@@ -1894,6 +1900,12 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         </note>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="2"/>
+          </direction-type>
+        <staff>1</staff>
+        </direction>
       <note id="n100" print-object="no">
         <rest/>
         <duration>25</duration>

@@ -1521,6 +1521,20 @@
           <staff-distance>71.90</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n96" default-x="148.68" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -1587,12 +1601,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n100" default-x="246.17" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -1663,12 +1671,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n104" default-x="343.65" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -2382,6 +2384,13 @@
         </note>
       </measure>
     <measure number="8" width="304.42">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n149" default-x="17.80" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -2748,12 +2757,6 @@
           <staff-distance>71.90</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n171" default-x="133.88" default-y="-20.00">
         <pitch>
           <step>B</step>
@@ -3199,6 +3202,13 @@
         </note>
       </measure>
     <measure number="10" width="329.22">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n199" default-x="30.89" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -3265,12 +3275,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n203" default-x="124.46" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -3615,6 +3619,13 @@
         </note>
       </measure>
     <measure number="11" width="312.72">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n226" default-x="10.00" default-y="-45.00">
         <pitch>
           <step>D</step>
@@ -3714,12 +3725,6 @@
         <stem>up</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n232" default-x="213.29" default-y="-35.00">
         <pitch>
           <step>F</step>
@@ -3797,12 +3802,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -3989,6 +3988,20 @@
           <line>4</line>
           </clef>
         </attributes>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>240</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n249" default-x="142.21" default-y="-134.49">
         <pitch>
           <step>G</step>
@@ -4207,12 +4220,6 @@
         </note>
       </measure>
     <measure number="13" width="327.70">
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n262" default-x="11.75" default-y="-15.00">
         <grace slash="yes"/>
         <pitch>
@@ -4662,6 +4669,13 @@
         </note>
       </measure>
     <measure number="14" width="333.20">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n290" default-x="22.77" default-y="-35.00">
         <grace/>
         <pitch>
@@ -4757,12 +4771,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n296" default-x="130.12" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -5670,6 +5678,13 @@
           <line>4</line>
           </clef>
         </attributes>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n350" default-x="39.42" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -6060,12 +6075,6 @@
         </note>
       </measure>
     <measure number="17" width="324.54">
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n372" default-x="11.75" default-y="-15.00">
         <grace slash="yes"/>
         <pitch>
@@ -6527,6 +6536,13 @@
           <staff-distance>76.07</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n400" default-x="131.49" default-y="-35.00">
         <grace/>
         <pitch>
@@ -6622,12 +6638,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n406" default-x="238.17" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -7073,6 +7083,13 @@
         </note>
       </measure>
     <measure number="19" width="327.17">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n434" default-x="10.00" default-y="-45.00">
         <pitch>
           <step>D</step>
@@ -7172,12 +7189,6 @@
         <stem>up</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n440" default-x="234.76" default-y="-35.00">
         <pitch>
           <step>F</step>
@@ -7255,12 +7266,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -7457,6 +7462,13 @@
         </note>
       </measure>
     <measure number="20" width="285.38">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>360</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n458" default-x="10.94" default-y="-156.07">
         <pitch>
           <step>G</step>
@@ -10128,6 +10140,13 @@
           <staff-distance>97.38</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n624" default-x="120.79" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -10253,12 +10272,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n631" default-x="321.54" default-y="-20.00">
         <pitch>
           <step>B</step>
@@ -11119,6 +11132,20 @@
         </forward>
       </measure>
     <measure number="29" width="316.59">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>960</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n680" default-x="23.09" default-y="-35.00">
         <pitch>
           <step>F</step>
@@ -11131,12 +11158,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <direction placement="below">
         <direction-type>
           <wedge type="crescendo" number="1" default-y="-75.00"/>
@@ -11652,12 +11673,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n710" default-x="223.05" default-y="30.00">
         <pitch>
           <step>E</step>
@@ -12068,6 +12083,20 @@
         </forward>
       </measure>
     <measure number="31" width="324.07">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>960</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n732" default-x="13.80" default-y="30.00">
         <pitch>
           <step>E</step>
@@ -12143,12 +12172,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n736" print-object="no">
         <rest/>
         <duration>240</duration>
@@ -12589,12 +12612,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n761" default-x="112.26" default-y="25.00">
         <pitch>
           <step>D</step>
@@ -13013,6 +13030,13 @@
           <staff-distance>75.20</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n783" default-x="124.59" default-y="25.00">
         <pitch>
           <step>D</step>
@@ -13088,12 +13112,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n787">
         <rest/>
         <duration>240</duration>
@@ -13941,6 +13959,13 @@
         </note>
       </measure>
     <measure number="35" width="463.30">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n835" default-x="17.80" default-y="0.00">
         <pitch>
           <step>F</step>
@@ -14431,12 +14456,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n862" default-x="189.96" default-y="25.00">
         <pitch>
           <step>D</step>
@@ -19318,12 +19337,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -19511,6 +19524,20 @@
           <line>4</line>
           </clef>
         </attributes>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>240</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
       <direction placement="below">
         <direction-type>
           <pedal type="start" line="yes" default-y="-80.00"/>
@@ -20033,12 +20060,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n1169" default-x="433.20" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -20492,6 +20513,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>240</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n1191" default-x="122.39" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -20563,12 +20591,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n1194" default-x="192.41" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -21684,6 +21706,13 @@
           <line>4</line>
           </clef>
         </attributes>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n1247" default-x="142.21" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -22310,12 +22339,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n1275" default-x="272.14" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -22757,6 +22780,13 @@
         </note>
       </measure>
     <measure number="56" width="472.16">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>240</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n1297" default-x="10.00" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -22828,12 +22858,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <direction placement="below">
         <direction-type>
           <wedge type="crescendo" number="1" default-y="-75.77"/>
@@ -24411,6 +24435,13 @@
         </note>
       </measure>
     <measure number="59" width="410.58">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n1372" default-x="23.09" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -24772,12 +24803,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n1387" default-x="345.87" default-y="5.00">
         <pitch>
           <step>G</step>
@@ -24852,12 +24877,6 @@
       <direction placement="below">
         <direction-type>
           <wedge type="stop" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -24954,6 +24973,13 @@
           <staff-distance>120.83</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n1396">
         <rest/>
         <duration>240</duration>
@@ -25421,6 +25447,13 @@
         </note>
       </measure>
     <measure number="61" width="583.01">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>1200</offset>
+        <staff>1</staff>
+        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-x="3.29" default-y="-40.80" relative-y="-40.00">
@@ -26157,6 +26190,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n1466" default-x="122.39" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -26422,12 +26462,6 @@
         <beam number="1">end</beam>
         <beam number="2">backward hook</beam>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n1481">
         <rest/>
         <duration>120</duration>
@@ -26790,8 +26824,9 @@
         </print>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
+          <octave-shift type="down" size="8" number="1"/>
           </direction-type>
+        <offset>960</offset>
         <staff>1</staff>
         </direction>
       <note id="n1501" default-x="134.01" default-y="-5.00">
@@ -27533,6 +27568,13 @@
           <line>4</line>
           </clef>
         </attributes>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n1543" default-x="142.21" default-y="0.00">
         <pitch>
           <step>F</step>
@@ -27731,12 +27773,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n1554" default-x="910.40" default-y="0.00">
         <pitch>
           <step>F</step>
@@ -27805,12 +27841,6 @@
         <beam number="1">end</beam>
         <beam number="2">backward hook</beam>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n1558">
         <rest/>
         <duration>120</duration>
@@ -28184,6 +28214,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n1579" default-x="120.99" default-y="5.00">
         <pitch>
           <step>G</step>
@@ -29159,12 +29196,6 @@
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n1638" default-x="744.75" default-y="15.00">
         <pitch>
           <step>B</step>
@@ -33923,12 +33954,6 @@
           <tuplet type="stop"/>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -34050,6 +34075,20 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>240</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>1440</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n1946" default-x="148.68" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -34067,12 +34106,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n1947" default-x="192.66" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -34483,12 +34516,6 @@
           <tuplet type="stop"/>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n1972" default-x="773.64" default-y="-5.00">
         <pitch>
           <step>E</step>
@@ -34696,12 +34723,6 @@
           <tuplet type="stop"/>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1920</duration>
         </backup>
@@ -35425,12 +35446,6 @@
           <tuplet type="stop"/>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n2023" default-x="756.24" default-y="-5.00">
         <pitch>
           <step>E</step>
@@ -35637,12 +35652,6 @@
           <tuplet type="stop"/>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -35876,12 +35885,6 @@
           <tuplet type="stop"/>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n2048" default-x="258.61" default-y="20.00">
         <pitch>
           <step>C</step>
@@ -36448,12 +36451,6 @@
           </direction-type>
         <staff>1</staff>
         </direction>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -36685,12 +36682,6 @@
           <tuplet type="stop"/>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n2089" default-x="276.98" default-y="20.00">
         <pitch>
           <step>C</step>
@@ -37331,12 +37322,6 @@
           <tuplet type="stop"/>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -37392,6 +37377,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n2123" default-x="126.19" default-y="10.00">
         <pitch>
           <step>A</step>
@@ -37516,12 +37508,6 @@
           <tuplet type="stop"/>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n2129" default-x="270.61" default-y="5.00">
         <pitch>
           <step>G</step>
@@ -39037,6 +39023,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <direction placement="below">
         <direction-type>
           <words default-y="-101.02" relative-y="20.00" font-style="italic" font-size="12">-          -          -          -          -          -          -          -         -          -          -          -          -          -          -          -          -</words>
@@ -39812,12 +39805,6 @@
           <tuplet type="stop"/>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -40019,12 +40006,6 @@
         <beam number="2">end</beam>
         <beam number="3">end</beam>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n2250" default-x="590.51" default-y="25.00">
         <pitch>
           <step>D</step>
@@ -40357,12 +40338,6 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n2271" default-x="303.09" default-y="25.00" print-object="no">
         <cue/>
         <pitch>
@@ -45141,12 +45116,6 @@
         <type>quarter</type>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -45961,12 +45930,6 @@
         <beam number="2">end</beam>
         <beam number="3">end</beam>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n2627" default-x="592.59" default-y="-30.00">
         <pitch>
           <step>G</step>
@@ -46445,6 +46408,13 @@
           <staff-distance>86.07</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n2661" default-x="126.19" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -46622,12 +46592,6 @@
         <beam number="2">end</beam>
         <beam number="3">end</beam>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n2673" default-x="573.54" default-y="-5.00">
         <pitch>
           <step>E</step>
@@ -47701,6 +47665,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n2746" default-x="126.19" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -48531,12 +48502,6 @@
         <beam number="2">end</beam>
         <beam number="3">end</beam>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n2802" default-x="746.67" default-y="-30.00">
         <pitch>
           <step>G</step>
@@ -48656,12 +48621,6 @@
         <beam number="2">end</beam>
         <beam number="3">end</beam>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -48967,6 +48926,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n2832" default-x="126.19" default-y="-5.00">
         <pitch>
           <step>E</step>
@@ -50037,6 +50003,13 @@
           <line>4</line>
           </clef>
         </attributes>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>987</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n2903" default-x="142.21" default-y="60.00">
         <pitch>
           <step>D</step>
@@ -50586,6 +50559,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>2</staff>
+        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-x="6.58" default-y="-40.00" relative-y="-40.00">
@@ -50809,12 +50789,6 @@
           <fermata type="inverted"/>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n2947" print-object="no">
         <rest/>
         <duration>480</duration>
@@ -50869,6 +50843,20 @@
           <staff-distance>89.04</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>120</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>120</offset>
+        <staff>2</staff>
+        </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="12.39" relative-y="20.00" font-weight="bold" font-family="Times New Roman" font-size="12">Più mosso.</words>
@@ -52811,6 +52799,20 @@
         </note>
       </measure>
     <measure number="105" width="497.29">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>840</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3061" default-x="13.80" default-y="35.00">
         <pitch>
           <step>F</step>
@@ -52925,12 +52927,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n3067">
         <rest/>
         <duration>120</duration>
@@ -53538,12 +53534,6 @@
             </articulations>
           </notations>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n3101" default-x="598.52" default-y="40.00">
         <pitch>
           <step>G</step>
@@ -53940,6 +53930,13 @@
           <staff-distance>65.65</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3122" default-x="126.19" default-y="-15.00">
         <pitch>
           <step>C</step>
@@ -54750,12 +54747,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n3172" default-x="139.34" default-y="-15.00">
         <pitch>
           <step>C</step>
@@ -55387,6 +55378,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>960</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3210" default-x="120.79" default-y="-35.00">
         <pitch>
           <step>F</step>
@@ -55425,12 +55423,6 @@
         <stem>up</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n3213">
         <rest/>
         <duration>240</duration>
@@ -55874,6 +55866,13 @@
           <staff-distance>102.59</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>240</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3244" default-x="124.59" default-y="5.00">
         <pitch>
           <step>G</step>
@@ -56548,6 +56547,13 @@
         </note>
       </measure>
     <measure number="111" width="303.39">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>960</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3283" default-x="13.80" default-y="-5.00">
         <pitch>
           <step>E</step>
@@ -56576,12 +56582,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n3285">
         <rest/>
         <duration>240</duration>
@@ -56589,12 +56589,6 @@
         <type>eighth</type>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n3286">
         <rest/>
         <duration>240</duration>
@@ -56969,6 +56963,13 @@
         </forward>
       </measure>
     <measure number="112" width="316.63">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>240</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3313" default-x="13.80" default-y="0.00">
         <pitch>
           <step>F</step>
@@ -57649,6 +57650,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>960</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3352" default-x="124.59" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -57679,12 +57687,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n3354">
         <rest/>
         <duration>240</duration>
@@ -57692,12 +57694,6 @@
         <type>eighth</type>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n3355">
         <rest/>
         <duration>240</duration>
@@ -59159,6 +59155,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>240</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3454" default-x="124.59" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -59484,12 +59487,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -59793,6 +59790,13 @@
         </note>
       </measure>
     <measure number="117" width="530.58">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3497" default-x="19.80" default-y="0.00">
         <pitch>
           <step>F</step>
@@ -59907,12 +59911,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n3505" default-x="183.78" default-y="-15.00">
         <pitch>
           <step>C</step>
@@ -62669,6 +62667,20 @@
           <clef-octave-change>-1</clef-octave-change>
           </clef>
         </attributes>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>120</offset>
+        <staff>2</staff>
+        </direction>
       <note id="n3687" default-x="140.93" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -63063,12 +63075,6 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n3716" default-x="58.92" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -63364,6 +63370,13 @@
           <line>4</line>
           </clef>
         </attributes>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>120</offset>
+        <staff>2</staff>
+        </direction>
       <note id="n3737" default-x="39.42" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -64824,12 +64837,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -65173,6 +65180,13 @@
           <staff-distance>94.10</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3863" default-x="126.19" default-y="10.00">
         <pitch>
           <step>A</step>
@@ -66466,6 +66480,13 @@
           <staff-distance>74.29</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3950" default-x="126.19" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -67019,6 +67040,13 @@
           <line>4</line>
           </clef>
         </attributes>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n3987" default-x="130.34" default-y="-20.00">
         <pitch>
           <step>B</step>
@@ -67181,12 +67209,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n3999" default-x="341.97" default-y="5.00">
         <pitch>
           <step>G</step>
@@ -67241,12 +67263,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n4003" default-x="452.17" default-y="5.00">
         <pitch>
           <step>G</step>
@@ -69264,6 +69280,20 @@
           <staff-distance>105.53</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="below">
+        <direction-type>
+          <octave-shift type="up" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>2</staff>
+        </direction>
       <note id="n4148" default-x="135.39" default-y="-45.00">
         <pitch>
           <step>D</step>
@@ -69617,12 +69647,6 @@
         <stem>up</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -69984,14 +70008,22 @@
         <stem>down</stem>
         <staff>2</staff>
         </note>
-      <direction placement="below">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="3"/>
-          </direction-type>
-        <staff>2</staff>
-        </direction>
       </measure>
     <measure number="135" width="384.94">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="below">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>2</staff>
+        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-x="6.58" default-y="-59.48" relative-y="-40.00">
@@ -70050,12 +70082,6 @@
         <stem>up</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n4203">
         <rest/>
         <duration>240</duration>
@@ -70284,12 +70310,6 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <direction placement="below">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="3"/>
-          </direction-type>
-        <staff>2</staff>
-        </direction>
       <note id="n4221" default-x="66.59" default-y="-200.53">
         <pitch>
           <step>D</step>
@@ -71006,6 +71026,13 @@
         </note>
       </measure>
     <measure number="137" width="456.46">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n4274" default-x="13.80" default-y="-20.00">
         <pitch>
           <step>B</step>
@@ -71662,12 +71689,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n4323" default-x="302.04" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -72041,6 +72062,13 @@
         </note>
       </measure>
     <measure number="139" width="301.56">
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n4351" default-x="13.80" default-y="-20.00">
         <pitch>
           <step>B</step>
@@ -72132,12 +72160,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n4358" default-x="115.22" default-y="-45.00">
         <pitch>
           <step>D</step>
@@ -73472,6 +73494,13 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>1200</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n4454" default-x="122.39" default-y="-45.00">
         <pitch>
           <step>D</step>
@@ -73796,12 +73825,6 @@
         <stem>up</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <backup>
         <duration>1440</duration>
         </backup>
@@ -74151,6 +74174,34 @@
           <staff-distance>71.55</staff-distance>
           </staff-layout>
         </print>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>0</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>480</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>1200</offset>
+        <staff>1</staff>
+        </direction>
       <note id="n4502" default-x="122.39" default-y="-45.00">
         <pitch>
           <step>D</step>
@@ -74311,12 +74362,6 @@
         <stem>up</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="3"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n4514" default-x="249.00" default-y="-45.00">
         <pitch>
           <step>D</step>
@@ -74834,9 +74879,45 @@
     <measure number="143" width="263.18">
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
+          <octave-shift type="down" size="8" number="1"/>
           </direction-type>
-        <staff>1</staff>
+        <offset>480</offset>
+        <staff>2</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>2</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="15" number="1"/>
+          </direction-type>
+        <offset>720</offset>
+        <staff>2</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="15" number="1"/>
+          </direction-type>
+        <offset>960</offset>
+        <staff>2</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="down" size="8" number="1"/>
+          </direction-type>
+        <offset>960</offset>
+        <staff>2</staff>
+        </direction>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <offset>1200</offset>
+        <staff>2</staff>
         </direction>
       <note id="n4550" default-x="13.80" default-y="-10.00">
         <pitch>
@@ -74967,12 +75048,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="3"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n4559" default-x="137.69" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -75222,12 +75297,6 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>2</staff>
-        </direction>
       <note id="n4577" default-x="137.69" default-y="-151.55">
         <pitch>
           <step>G</step>
@@ -75267,12 +75336,6 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="15" number="3"/>
-          </direction-type>
-        <staff>2</staff>
-        </direction>
       <note id="n4580" default-x="178.99" default-y="-151.55">
         <pitch>
           <step>G</step>
@@ -75312,12 +75375,6 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="4"/>
-          </direction-type>
-        <staff>2</staff>
-        </direction>
       <note id="n4583" default-x="220.29" default-y="-151.55">
         <pitch>
           <step>G</step>
@@ -75361,8 +75418,9 @@
     <measure number="144" width="239.06">
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="5"/>
+          <octave-shift type="stop" size="8" number="1"/>
           </direction-type>
+        <offset>720</offset>
         <staff>1</staff>
         </direction>
       <note id="n4586" default-x="13.80" default-y="-10.00">
@@ -75403,12 +75461,6 @@
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="5"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n4589">
         <rest/>
         <duration>240</duration>
@@ -75529,12 +75581,6 @@
         <type>eighth</type>
         <staff>2</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="2"/>
-          </direction-type>
-        <staff>2</staff>
-        </direction>
       <note id="n4601" default-x="125.63" default-y="-151.55">
         <pitch>
           <step>G</step>
@@ -75573,12 +75619,6 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="15" number="3"/>
-          </direction-type>
-        <staff>2</staff>
-        </direction>
       <note id="n4604">
         <rest/>
         <duration>240</duration>
@@ -75586,12 +75626,6 @@
         <type>eighth</type>
         <staff>2</staff>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <octave-shift type="stop" size="8" number="4"/>
-          </direction-type>
-        <staff>2</staff>
-        </direction>
       <note id="n4605">
         <rest/>
         <duration>240</duration>

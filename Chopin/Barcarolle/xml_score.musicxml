@@ -76941,6 +76941,12 @@
         <beam number="2">end</beam>
         <beam number="3">end</beam>
         </note>
+      <direction placement="above">
+        <direction-type>
+          <octave-shift type="stop" size="8" number="1"/>
+          </direction-type>
+        <staff>1</staff>
+        </direction>
       <backup>
         <duration>2880</duration>
         </backup>
